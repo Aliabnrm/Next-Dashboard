@@ -4,8 +4,8 @@ const Table = ({
   data,
 }: {
   columns: { header: string; accessor: string; className?: string }[];
-  renderRow: (item: string) => React.ReactNode;
-  data: string[];
+  renderRow: (item: any) => React.ReactNode;
+  data: any[];
 }) => {
   return (
     <table className="w-full mt-4">
